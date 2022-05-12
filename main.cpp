@@ -114,7 +114,7 @@ void *reader(void *args) {
         }
         accessToWriterState.unlock();//повертаємо доступ до змінної
         data = dataBase.read();//читаємо з бази даних
-        printReaderResult(id, data);//виводимо у консоль, що прочитав читач
+        printReaderResult(id, data);//виводимо у консоль, що прочитав  читач
     }
 }
 
